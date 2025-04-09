@@ -1,6 +1,6 @@
-# Offensive Tweet Classification using DistilBERT and LoRA (QLoRA)
+# Offensive Tweet Classification using DistilBERT and LoRA
 
-This project aims to classify tweets from the `tweet_eval` dataset as either **Offensive** or **NotOffensive** using a pre-trained `distilbert-base-uncased` model. To make the fine-tuning process efficient and memory-friendly, we used **LoRA (Low-Rank Adaptation)** with 4-bit quantization (QLoRA), reducing the number of trainable parameters to only **0.93%** of the original model.
+This project aims to classify tweets from the `tweet_eval` dataset as either **Offensive** or **NotOffensive** using a pre-trained `distilbert-base-uncased` model. To make the fine-tuning process efficient and memory-friendly, we used **LoRA (Low-Rank Adaptation)**, reducing the number of trainable parameters to only **0.93%** of the original model.
 
 ## Highlights
 - Fine-tuned a transformer model on a binary classification task.
